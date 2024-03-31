@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//theoretical average percentile after x rounds of research, assuming even distribution of values
+//theoretical average percentile after x rounds of research, assuming uniform distribution of values
 //efficacy represents the average percentile a random 'successful'(better than all before) research will yield, rounds is just rounds of research
 //see README for detailed explanation on equation
 double percentile_calculator(double efficacy, int rounds) {
